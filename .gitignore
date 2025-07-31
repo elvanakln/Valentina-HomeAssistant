@@ -39,3 +39,21 @@
 
 # debug information files
 *.dwo
+
+
+# Arduino derleme çıktıları
+*.bin
+*.elf
+*.hex
+*.o
+build/
+
+# IDE geçici ve proje ayarları
+*.tmp
+.pio/
+.vscode/
+*.code-workspace
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
